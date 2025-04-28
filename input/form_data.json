@@ -1,0 +1,16 @@
+{
+    "project_id": "WEC-20250427-001",
+    "client_name": "Juan Pérez",
+    "project_type": "Residencial",
+    "floor_area_sqft": 1500,
+    "flooring_material": "Vinyl",
+    "adhesive_type": "Standard",
+    "baseboard_type": "Wood",
+    "delivery_zip_code": "10001",
+    "special_requirements": [
+      "Resistente al agua",
+      "Instalación rápida"
+    ],
+    "floor_plan_uploaded": "floorplan_revit_file.rvt",
+    "contact_email": "juan.perez@example.com"
+  }

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project Quotation</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        h1 { color: #333; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 10px; border-bottom: 1px solid #ccc; text-align: left; }
+    </style>
+</head>
+<body>
+    <h1>Quotation for {{ client_name }}</h1>
+    <p><strong>Project ID:</strong> {{ project_id }}</p>
+
+    <h2>Materials Required</h2>
+    <table>
+        <tr><th>Item</th><th>Quantity</th></tr>
+        <tr><td>Boxes of Flooring</td><td>{{ boxes_of_flooring }}</td></tr>
+        <tr><td>Gallons of Adhesive</td><td>{{ gallons_of_adhesive }}</td></tr>
+        <tr><td>Baseboard Length (ft)</td><td>{{ baseboard_length }}</td></tr>
+    </table>
+
+    <h2>Estimated Freight Cost</h2>
+    <p><strong>${{ estimated_freight_cost_usd }}</strong> USD</p>
+</body>

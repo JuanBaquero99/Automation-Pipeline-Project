@@ -1,0 +1,10 @@
+{
+    "project_id": "WEC-20250427-001",
+    "client_name": "Juan P\u00c3\u00a9rez",
+    "materials_required": {
+        "boxes_of_flooring": 75,
+        "gallons_of_adhesive": 8,
+        "baseboard_length_ft": 155
+    },
+    "estimated_freight_cost": 1175.0
+}
